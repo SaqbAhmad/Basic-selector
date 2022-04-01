@@ -1,0 +1,28 @@
+/* Universal selector */
+*{
+    border:1px solid gray;
+}
+/* id selector: it is unique */
+#heading{
+    color: palevioletred;
+    border: 8px solid green;
+}
+/* class selector:class can be given to many elements. */
+.fav-movie{
+     color:lightskyblue;
+     font-weight: bold;
+}
+/* Difference b/w class and id: id unique and class
+   multiple element ko de skte hai. */
+   /* Attribute selector*/
+   /* Input is a element selector and if we put attribute in input then it become attribue selector.*/
+input[type="text"]{
+     background-color: lightblue;
+}
+input[placeholder="password"]{
+    background-color: black;
+}
+/* Element selector*/
+h2{
+     color:blue;
+}
